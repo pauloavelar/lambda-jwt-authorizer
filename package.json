@@ -1,0 +1,30 @@
+{
+  "name": "lambda-jwt-authorizer",
+  "version": "1.0.0",
+  "description": "Custom JWT authorizer example for AWS API Gateway",
+  "main": "index.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.2.0",
+    "moment": "^2.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node sign && node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauloavelar/lambda-jwt-authorizer.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "authorizer",
+    "jwt"
+  ],
+  "author": "Paulo Avelar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauloavelar/lambda-jwt-authorizer/issues"
+  },
+  "homepage": "https://github.com/pauloavelar/lambda-jwt-authorizer#readme"
+}
