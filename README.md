@@ -1,4 +1,4 @@
-# JWT Validation for API Gateway Custom Authorization using Lambda function
+# API Gateway Custom JWT Authorizer using Lambda function
 
 This is a working example of a **Lambda function** (`index.handler`) that validates a **JWT token** by checking its integrity against a **public key** and its **expiration** (this example checks `iat + duration` instead of `exp` for personal reasons).
 
