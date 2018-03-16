@@ -8,7 +8,7 @@ This is a working example of a **Lambda function** (`index.handler`) that valida
 
 2. Run `npm install` to get the dependencies: `moment` and `jsonwebtoken`.
 
-3. Create a **RSA key pair** for your tests (more instructions (here)[cert/README.md]).
+3. Create a **RSA key pair** for your tests -- more instructions [here](cert/README.md).
 
 4. Run `sign.js` to create a valid signed token using your **private key** and store it in a file (`token.jwt`).
 
